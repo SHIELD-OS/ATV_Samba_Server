@@ -4,7 +4,7 @@
         SELECT hostname, sharename, domain, serverport, sessionport, datagramport, smbport FROM config
     </query>
     <query name="init_config">
-        INSERT INTO config values (1, 'MYHOST', 'MYSHARE', 'MYDOMAIN', 2137, 2139, 2138, 2445)
+        INSERT INTO config values (1, 'MYHOST', 'MYSHARE', 'MYDOMAIN', 137, 139, 138, 445)
     </query>
     <query name="update_config">
         UPDATE config
